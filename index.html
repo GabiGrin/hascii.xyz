@@ -4,7 +4,6 @@
   <style>
     body {
       background-color: #393946;
-      color: white;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -13,6 +12,26 @@
     pre {
       font: 8px/4px monospace;
       zoom: 0.5;
+      color: #bbb;
+      transition: color 0.5s ease-out;
+    }
+
+    pre:hover {
+      color: white;
+    }
+
+    img {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      margin: 20px;
+      width: 32px;
+      opacity: 0.5;
+      transition: opacity 0.5s ease-out;
+    }
+
+    img:hover {
+      opacity: 1;
     }
   </style>
   <script>
@@ -228,5 +247,6 @@
                                                              .,:;++'::,:;'+';,.
                                                                ````````` ` `
   </pre>
+  <a href="http://github.com/gabigrin/hascii.xyz" target="_blank"><img src="gh.png"/></a>
 </body>
 </html>
